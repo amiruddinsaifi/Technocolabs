@@ -3,6 +3,16 @@
 # Problem Statement
 Everyday while surfing the social media we encounter a lot of comments, reviews, tweets etc. that we believe might hurt the sentiments of the people of a particular group or a community. These comments are believed to be toxic in nature, which thus defines the problem that we are trying to solve with this project i.e Classifying the comments on the social media into various categories of toxicity, which are - Toxic, Severe-toxic, Obscene, Threat, Insult, Identity_hate. This is a Multi Label Classification problem which means that a given comment may belong to more than one category at the same time.Currently I am  Working as a Machine learnig Aplication developer intern at Technocolabs
 
+# Overview
+In this notebook, we'll be developing a model that can classify string comments based on their toxicity:
+
+* toxic
+* severe_toxic
+* obscene
+* threat
+* insult
+* identity_hate
+
 #  Language and Libraries used.
 
 * Python 3.7
@@ -11,6 +21,13 @@ Everyday while surfing the social media we encounter a lot of comments, reviews,
 * Matplotlib
 * NLTK
 * Seaborn
+
+# Run Locally
+* Build the Model
+* Deploy the Model
+* Use the Model
+* Development
+* Cleanup
 
 # Steps involved
 
@@ -24,6 +41,8 @@ Everyday while surfing the social media we encounter a lot of comments, reviews,
 
 # Dataset
 We use the Wikipedia comments dataset provided by Kaggle here. It consists of 159,571 instances categorized by humans to be toxic, severely toxic, threatening, obscene, insulting, and hateful.
+* train.csv, test.csv, and sample_submission.csv found here. Download to /data.
+* FastText embeddings found here. Download to /data.
 
 ## A brief definition of the six different toxicity types can be found below.
 * Toxic: very bad, unpleasant, or harmful
