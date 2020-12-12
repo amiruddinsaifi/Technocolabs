@@ -25,6 +25,19 @@ Everyday while surfing the social media we encounter a lot of comments, reviews,
 # Dataset
 We use the Wikipedia comments dataset provided by Kaggle here. It consists of 159,571 instances categorized by humans to be toxic, severely toxic, threatening, obscene, insulting, and hateful.
 
+## A brief definition of the six different toxicity types can be found below.
+* Toxic: very bad, unpleasant, or harmful
+
+* Severe toxic: extremely bad and offensive
+
+* Obscene: (of the portrayal or description of sexual matters) offensive or disgusting by accepted standards of morality and decency
+
+* Threat: a statement of an intention to inflict pain, injury, damage, or other hostile action on someone in retribution for something done or not done
+
+* Insult: speak to or treat with disrespect or scornful abuse
+
+* Identity hate: hatred, hostility, or violence towards members of a race, ethnicity, nation, religion, gender, gender identity, sexual orientation or any other designated sector of society
+
 # About
 
 Multilabel classification of comments based on their toxicity.
