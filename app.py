@@ -45,7 +45,7 @@ with open(r"model/identity_hate_model.pkl", "rb") as f:
     ide_model  = pickle.load(f)
 
 # Render the HTML file for the home page
-@app.route("/")
+@app.route('/')
 def home():
     return render_template('index_toxic.html')
 
