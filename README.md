@@ -22,6 +22,9 @@ Everyday while surfing the social media we encounter a lot of comments, reviews,
 * Results
 * Predicted an accuracy score of 86.16% using Binary Relevance method with SVM classifier.
 
+# Dataset
+We use the Wikipedia comments dataset provided by Kaggle here. It consists of 159,571 instances categorized by humans to be toxic, severely toxic, threatening, obscene, insulting, and hateful.
+
 # About
 
 Multilabel classification of comments based on their toxicity.
