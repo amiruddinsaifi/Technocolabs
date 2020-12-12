@@ -14,13 +14,13 @@ Everyday while surfing the social media we encounter a lot of comments, reviews,
 
 # Steps involved
 
-Getting the dataset
-Getting insights from dataset using visualisation tools.
-Preprocessing the data using NLTK.
-Applying Multi Label classification algorithms.
-Comparing the results and choosing the best among them.
-Results
-Predicted an accuracy score of 88.16% using Binary Relevance method with SVM classifier.
+*Getting the dataset
+*Getting insights from dataset using visualisation tools.
+*Preprocessing the data using NLTK.
+*Applying Multi Label classification algorithms.
+*Comparing the results and choosing the best among them.
+*Results
+*Predicted an accuracy score of 86.16% using Binary Relevance method with SVM classifier.
 
 # About
 
