@@ -31,6 +31,12 @@ In this notebook, we'll be developing a model that can classify string comments 
 * Development
 * Cleanup
 
+![](static/image/first.png)
+![](static/image/second.png)
+![](static/image/third.png)
+![](static/image/fourth.png)
+![](static/image/fifth.png)
+
 # Steps involved
 
 * Getting the dataset
