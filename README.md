@@ -46,3 +46,10 @@ Multilabel classification of comments based on their toxicity.
 python3 machine-learning naive-bayes-classification multilabel-classification matplotlib svm-classifier toxic-comment-classification
 Resources
 
+# References
+
+J. Devlin, M. Chang, K. Lee, K. Toutanova, BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding, arXiv, 2018.
+* Google BERT repository
+* Huggingface BERT Pytorch repository
+* Multi-Label Text Classification using BERT - The Mighty Transformer
+* Kaggle Toxic Comment Classification
