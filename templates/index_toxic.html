@@ -25,19 +25,35 @@
   
  <div class="login">
 
-<div>
-  <img src="static/image/main.jpg" class="w3-border w3-padding" alt="Toxic Comment Classification" height=300 style="width:100%">
-</div>
-<center bg='red'>
-  <h1>Write your comment in Text Box and test that Your text is Toxic Or not.</h1>
-	<h1>Is your comment toxic?</h1>
+<center>
+ 
+  <img src="static/image/main.jpg" class="w3-border w3-padding" alt="Toxic Comment Classification" height=400 style="width:75%">
 
+  
+    <h1 style="color:blue;">Hy You. I am Machine leaning Model. <br>I am looking your text. <br>I can classify that what you are writing </h1>
+    </h1>
+  
+    <img src="static/image/alien.png" class="w3-border w3-padding" alt="Toxic Comment Classification" height=300 style="width:20%">
+  
+
+  <h1 style="color:rgb(0, 255, 0);">Write your comment in Text Box and test that Your text is Toxic Or not.</h1>
+       <h1 style="color:red;">Is your comment toxic?</h1>
+ 
+       
+  
+  
      <!-- Main Input For Receiving Query to our ML -->
     <form action="{{ url_for('predict')}}"method="post">
+     
+
+
     	<input id='text' type="text" name="text" placeholder="Enter your text" required="required" size="25" style="font-size:25px;"/>
 
       <button id='button' type="submit" class="btn btn-primary btn-block btn-large" style="font-size: 20px;"> Predict</button>
+
+   
     </form>
+
 
        <h3>{{ pred_tox }} <br><br>
     {{ pred_sev }} <br><br>
@@ -45,6 +61,8 @@
     {{ pred_ins }} <br><br>
     {{ pred_thr }} <br><br>
     {{ pred_ide }}</h3>
+<br> 
+<h1>Made By Amiruddin Saifi.</h1>
   </center>
  </div>
 </body>
