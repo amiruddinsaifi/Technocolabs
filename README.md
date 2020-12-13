@@ -31,6 +31,8 @@ In this notebook, we'll be developing a model that can classify string comments 
 * Development
 * Cleanup
 
+click here to run online:-  https://toxic-comment-classifier-f-app.herokuapp.com/
+
 ![](static/image/first.png)
 ![](static/image/second.png)
 ![](static/image/third.png)
