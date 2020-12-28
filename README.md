@@ -1,5 +1,6 @@
 # Toxic comment classification.
 
+Live Heroku App. https://toxic-comment-classifier-f-app.herokuapp.com/predict
 # Problem Statement
 Everyday while surfing the social media we encounter a lot of comments, reviews, tweets etc. that we believe might hurt the sentiments of the people of a particular group or a community. These comments are believed to be toxic in nature, which thus defines the problem that we are trying to solve with this project i.e Classifying the comments on the social media into various categories of toxicity, which are - Toxic, Severe-toxic, Obscene, Threat, Insult, Identity_hate. This is a Multi Label Classification problem which means that a given comment may belong to more than one category at the same time.Currently I am  Working as a Machine learnig Aplication developer intern at Technocolabs
 
